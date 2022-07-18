@@ -7,10 +7,10 @@ namespace Core.Character
     public class CharacterFactory
     {
         private readonly CharacterConfig _characterConfig;
+        private readonly CharacterContainer _characterContainer;
         private readonly Transform _characterParent;
         private readonly GridCellContainer _gridCellContainer;
         private readonly GridNavigation _gridNavigation;
-        private readonly CharacterContainer _characterContainer;
 
         public CharacterFactory(StaticData staticData, GridCellContainer gridCellContainer, SceneData sceneData,
             GridNavigation gridNavigation, CharacterContainer characterContainer)
@@ -31,7 +31,7 @@ namespace Core.Character
             var character = new GridCharacter(view, _gridNavigation, _gridCellContainer, _characterConfig, position);
             var animation = new CharacterAnimation(view.Animator);
             var directionSwitch = new CharacterDirectionSwitch(character, animation);
-            
+
             _characterContainer.AddCharacter(character);
             return character;
         }

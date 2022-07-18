@@ -31,7 +31,7 @@ namespace Core.Buildings
             _camera = sceneData.Camera;
             _gridConfig = staticData.GridConfig;
         }
-        
+
         public bool IsMoving { get; private set; }
 
         public void Dispose()

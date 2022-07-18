@@ -7,7 +7,7 @@ namespace Core.Buildings
     {
         private readonly BuildingFactory _buildingFactory;
         private readonly InitialGridStateConfig _initialGridStateConfig;
-        
+
         public DefaultBuildingSpawn(StaticData staticData, BuildingFactory buildingFactory)
         {
             _buildingFactory = buildingFactory;

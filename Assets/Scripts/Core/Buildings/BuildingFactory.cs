@@ -10,9 +10,9 @@ namespace Core.Buildings
     {
         private readonly BuildingContainer _buildingContainer;
         private readonly Transform _buildingParent;
-        private readonly Transform _walkableParent;
         private readonly GridCellContainer _gridCellContainer;
         private readonly GridConfig _gridConfig;
+        private readonly Transform _walkableParent;
 
         public BuildingFactory(GridCellContainer gridCellContainer, BuildingContainer buildingContainer,
             SceneData sceneData, StaticData staticData)
@@ -25,7 +25,7 @@ namespace Core.Buildings
         }
 
         public event Action<Building> BuildingSpawned;
-        
+
         public bool TrySpawnBuildingAtPositions(BuildingData buildingData, out Building building)
         {
             var positions = buildingData.OccupiedGridPosition;
@@ -43,19 +43,15 @@ namespace Core.Buildings
             BuildingView view;
 
             if (config.IsWalkable)
-            {
                 view = Object.Instantiate(config.Prefab, _walkableParent);
-            }
             else
-            {
                 view = Object.Instantiate(config.Prefab, _buildingParent);
-            }
 
             var touchColliderSize = view.TouchCollider.size;
             touchColliderSize.x = _gridConfig.CellSize * config.Size.x;
             touchColliderSize.z = _gridConfig.CellSize * config.Size.y;
             view.TouchCollider.size = touchColliderSize;
-            
+
             var newBuilding = new Building(view, config);
 
             _buildingContainer.Add(newBuilding);

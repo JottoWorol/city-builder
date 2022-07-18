@@ -11,9 +11,9 @@ namespace Core.Camera
     public class CameraOffsetControl : IInitializable, IDisposable
     {
         private readonly BuildingMove _buildingMove;
+        private readonly CameraControlConfig _cameraControlConfig;
         private readonly CameraOffset _cameraOffset;
         private readonly ScreenTouchView _screenTouchView;
-        private readonly CameraControlConfig _cameraControlConfig;
 
         public CameraOffsetControl(UISceneData uiSceneData, BuildingMove buildingMove, CameraOffset cameraOffset,
             StaticData staticData)

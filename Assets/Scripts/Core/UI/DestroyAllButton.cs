@@ -8,9 +8,9 @@ namespace Core.UI
 {
     public class DestroyAllButton : IDisposable
     {
-        private Button _button;
-        private readonly Button _buttonPrefab;
         private readonly Transform _buttonParent;
+        private readonly Button _buttonPrefab;
+        private Button _button;
 
         public DestroyAllButton(StaticData staticData, UISceneData uiSceneData)
         {
@@ -18,22 +18,22 @@ namespace Core.UI
             _buttonParent = uiSceneData.BuildButtonParent;
         }
 
+        public void Dispose()
+        {
+            _button.onClick.RemoveAllListeners();
+        }
+
         public void Initialize()
         {
             _button = Object.Instantiate(_buttonPrefab, _buttonParent);
             _button.onClick.AddListener(OnClick);
         }
-        
+
         public event Action ButtonClicked;
 
         private void OnClick()
         {
             ButtonClicked?.Invoke();
-        }
-
-        public void Dispose()
-        {
-            _button.onClick.RemoveAllListeners();
         }
     }
 }

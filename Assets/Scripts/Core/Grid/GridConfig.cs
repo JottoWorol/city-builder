@@ -19,15 +19,9 @@ namespace Core.Grid
 
         private void OnValidate()
         {
-            if (_mapSize.x <= 0)
-            {
-                _mapSize.x = 1;
-            }
-            
-            if (_mapSize.y <= 0)
-            {
-                _mapSize.y = 1;
-            }
+            if (_mapSize.x <= 0) _mapSize.x = 1;
+
+            if (_mapSize.y <= 0) _mapSize.y = 1;
         }
     }
 }

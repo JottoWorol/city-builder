@@ -7,7 +7,7 @@ namespace Core.Buildings
     public class BuildingList : ScriptableObject
     {
         [SerializeField] private List<BuildingConfig> _buildings = new List<BuildingConfig>();
-        
+
         public List<BuildingConfig> Buildings => _buildings;
     }
 }

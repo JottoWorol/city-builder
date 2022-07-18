@@ -31,9 +31,10 @@ namespace Core.Character
 
         private void OnBuildingSpawned(Building building)
         {
-            if (building.BuildingConfig.IsWalkable || !_gridCellContainer.TryGetRandomWalkablePosition(out var position))
+            if (building.BuildingConfig.IsWalkable ||
+                !_gridCellContainer.TryGetRandomWalkablePosition(out var position))
                 return;
-            
+
             building.AttachCharacter(_characterFactory.SpawnCharacterAt(position));
         }
     }

@@ -7,7 +7,7 @@ namespace Core.Character
     {
         [SerializeField] private float _moveSpeed = 5f;
         [SerializeField] private CharacterView _characterView;
-        
+
         public float MoveSpeed => _moveSpeed;
         public CharacterView CharacterView => _characterView;
     }

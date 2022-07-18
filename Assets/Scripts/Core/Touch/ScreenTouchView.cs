@@ -6,11 +6,15 @@ namespace Core.Touch
 {
     public class ScreenTouchView : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
     {
-        private int? _pointerId = null;
+        private int? _pointerId;
 
-        public event Action<PointerEventData> PointerDown;
-        public event Action<PointerEventData> PointerUp;
-        public event Action<PointerEventData> PointerDrag;
+        public void OnDrag(PointerEventData eventData)
+        {
+            if (_pointerId != eventData.pointerId)
+                return;
+
+            PointerDrag?.Invoke(eventData);
+        }
 
         public void OnPointerDown(PointerEventData eventData)
         {
@@ -30,12 +34,8 @@ namespace Core.Touch
             PointerUp?.Invoke(eventData);
         }
 
-        public void OnDrag(PointerEventData eventData)
-        {
-            if (_pointerId != eventData.pointerId)
-                return;
-
-            PointerDrag?.Invoke(eventData);
-        }
+        public event Action<PointerEventData> PointerDown;
+        public event Action<PointerEventData> PointerUp;
+        public event Action<PointerEventData> PointerDrag;
     }
 }

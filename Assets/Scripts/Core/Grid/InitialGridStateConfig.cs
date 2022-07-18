@@ -20,7 +20,7 @@ namespace Core.Grid
     {
         public BuildingConfig Building;
         public Vector2Int[] OccupiedGridPosition;
-        
+
         public BuildingData(BuildingConfig building, Vector2Int[] occupiedGridPosition)
         {
             Building = building;

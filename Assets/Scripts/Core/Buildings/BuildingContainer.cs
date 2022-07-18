@@ -7,12 +7,14 @@ namespace Core.Buildings
 {
     public class BuildingContainer
     {
+        private readonly List<Building> _buildings = new List<Building>();
+
         private readonly Dictionary<BuildingView, Building> _buildingViewToBuilding =
             new Dictionary<BuildingView, Building>();
 
-        private readonly GridCellContainer _gridCellContainer;
         private readonly CharacterContainer _characterContainer;
-        private readonly List<Building> _buildings = new List<Building>();
+
+        private readonly GridCellContainer _gridCellContainer;
 
         public BuildingContainer(GridCellContainer gridCellContainer, CharacterContainer characterContainer)
         {

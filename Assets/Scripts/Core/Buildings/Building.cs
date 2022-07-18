@@ -6,17 +6,18 @@ namespace Core.Buildings
 {
     public class Building
     {
-        public BuildingConfig BuildingConfig { get; private set; }
-        public Vector2Int[] OccupiedCellPositions { get; private set; }
-        public BuildingView BuildingView { get; private set; }
         public readonly List<GridCharacter> AttachedCharacters = new List<GridCharacter>();
-        
+
         public Building(BuildingView buildingView, BuildingConfig buildingConfig)
         {
             BuildingView = buildingView;
             BuildingConfig = buildingConfig;
         }
-        
+
+        public BuildingConfig BuildingConfig { get; }
+        public Vector2Int[] OccupiedCellPositions { get; private set; }
+        public BuildingView BuildingView { get; }
+
         public void AttachCharacter(GridCharacter character)
         {
             AttachedCharacters.Add(character);

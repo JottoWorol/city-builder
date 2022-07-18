@@ -6,7 +6,7 @@ namespace Core.Grid.Cells
     {
         public CellView CellView;
         public Vector2Int Position;
-        
+
         public GridCellData(CellView cellView, Vector2Int position)
         {
             CellView = cellView;
