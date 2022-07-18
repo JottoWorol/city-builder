@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e9d99ad7866431184ea6a2dc73338c9, type: 3}
   m_Name: CameraControlConfig
   m_EditorClassIdentifier: 
-  _cameraMoveSensitivity: 0.003
+  _cameraMoveSensitivity: 0.006
