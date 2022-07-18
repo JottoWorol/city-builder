@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d517062422374f30a677515c8ead3fe9, type: 3}
+  m_Name: InitialGridStateConfig
+  m_EditorClassIdentifier: 
+  _buildingsData:
+  - Building: {fileID: 11400000, guid: 6dc5d2344ff158a4a80fb3594104242a, type: 2}
+    OccupiedGridPosition:
+    - {x: 8, y: 8}
+  - Building: {fileID: 11400000, guid: 6dc5d2344ff158a4a80fb3594104242a, type: 2}
+    OccupiedGridPosition:
+    - {x: 8, y: 9}
+  - Building: {fileID: 11400000, guid: 6dc5d2344ff158a4a80fb3594104242a, type: 2}
+    OccupiedGridPosition:
+    - {x: 8, y: 10}
+  - Building: {fileID: 11400000, guid: 6dc5d2344ff158a4a80fb3594104242a, type: 2}
+    OccupiedGridPosition:
+    - {x: 8, y: 11}
+  - Building: {fileID: 11400000, guid: 6dc5d2344ff158a4a80fb3594104242a, type: 2}
+    OccupiedGridPosition:
+    - {x: 11, y: 11}
+  - Building: {fileID: 11400000, guid: 6dc5d2344ff158a4a80fb3594104242a, type: 2}
+    OccupiedGridPosition:
+    - {x: 11, y: 10}
+  - Building: {fileID: 11400000, guid: 6dc5d2344ff158a4a80fb3594104242a, type: 2}
+    OccupiedGridPosition:
+    - {x: 11, y: 9}
+  - Building: {fileID: 11400000, guid: 6dc5d2344ff158a4a80fb3594104242a, type: 2}
+    OccupiedGridPosition:
+    - {x: 11, y: 8}
+  - Building: {fileID: 11400000, guid: 6dc5d2344ff158a4a80fb3594104242a, type: 2}
+    OccupiedGridPosition:
+    - {x: 10, y: 8}
+  - Building: {fileID: 11400000, guid: 6dc5d2344ff158a4a80fb3594104242a, type: 2}
+    OccupiedGridPosition:
+    - {x: 9, y: 8}
+  - Building: {fileID: 11400000, guid: 6dc5d2344ff158a4a80fb3594104242a, type: 2}
+    OccupiedGridPosition:
+    - {x: 10, y: 11}
+  - Building: {fileID: 11400000, guid: 6dc5d2344ff158a4a80fb3594104242a, type: 2}
+    OccupiedGridPosition:
+    - {x: 9, y: 11}
+  - Building: {fileID: 11400000, guid: 71a69162e542965429cd281afc89cae3, type: 2}
+    OccupiedGridPosition:
+    - {x: 9, y: 9}
+    - {x: 9, y: 10}
+    - {x: 10, y: 9}
+    - {x: 10, y: 10}

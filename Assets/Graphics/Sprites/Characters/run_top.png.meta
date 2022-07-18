@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: 8a3129895a4be21458fc283b0b4cf576
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3079212858225167517
+    second: run_top_00000.png
+  - first:
+      213: 2150212233469323537
+    second: run_top_00001.png
+  - first:
+      213: 6934808158549372917
+    second: run_top_00002.png
+  - first:
+      213: 3480896537494991992
+    second: run_top_00003.png
+  - first:
+      213: 2082966921051741488
+    second: run_top_00004.png
+  - first:
+      213: -1597596475251178134
+    second: run_top_00005.png
+  - first:
+      213: 3666769735317362337
+    second: run_top_00006.png
+  - first:
+      213: 4013750563579204394
+    second: run_top_00007.png
+  - first:
+      213: 7435846389827443781
+    second: run_top_00008.png
+  - first:
+      213: -2504328742286279480
+    second: run_top_00009.png
+  - first:
+      213: -137985354006341482
+    second: run_top_00010.png
+  - first:
+      213: -8672853530132772512
+    second: run_top_00011.png
+  - first:
+      213: 3575973092551654540
+    second: run_top_00012.png
+  - first:
+      213: 1655245486815154543
+    second: run_top_00013.png
+  - first:
+      213: -5783009141878588349
+    second: run_top_00014.png
+  - first:
+      213: -7342134334286317070
+    second: run_top_00015.png
+  - first:
+      213: 4147194225684298123
+    second: run_top_00016.png
+  - first:
+      213: -5663633779228991805
+    second: run_top_00017.png
+  - first:
+      213: 1596382832189912285
+    second: run_top_00018.png
+  - first:
+      213: -3279062592869134027
+    second: run_top_00019.png
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: run_top_00000.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 274
+        width: 66
+        height: 132
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.5151515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c835ab7cf8bba20800000000000000
+      internalID: 3079212858225167517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00001.png
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 536
+        width: 68
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4852941, y: 0.50769234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11963af42a617dd10800000000000000
+      internalID: 2150212233469323537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00002.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 794
+        width: 72
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5138889, y: 0.484375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffe0db27436d3060800000000000000
+      internalID: 6934808158549372917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00003.png
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 794
+        width: 74
+        height: 128
+      alignment: 9
+      pivot: {x: 0.527027, y: 0.46875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874b64155f0ae4030800000000000000
+      internalID: 3480896537494991992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00004.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 406
+        width: 78
+        height: 130
+      alignment: 9
+      pivot: {x: 0.55128205, y: 0.46923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d9d20f06f28ec10800000000000000
+      internalID: 2082966921051741488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00005.png
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 406
+        width: 84
+        height: 130
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.46923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65cc3e587234d9e0800000000000000
+      internalID: -1597596475251178134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00006.png
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 794
+        width: 90
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a69eba95abf2e230800000000000000
+      internalID: 3666769735317362337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00007.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 666
+        width: 90
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4765625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23992f2fd4b3b730800000000000000
+      internalID: 4013750563579204394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00008.png
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 666
+        width: 90
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4921875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c190e05ee613760800000000000000
+      internalID: 7435846389827443781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00009.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 538
+        width: 90
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccb9330746de3dd0800000000000000
+      internalID: -2504328742286279480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00010.png
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 538
+        width: 88
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5113636, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698de363d07c51ef0800000000000000
+      internalID: -137985354006341482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00011.png
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 406
+        width: 84
+        height: 130
+      alignment: 9
+      pivot: {x: 0.53571427, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06981734aa5d3a780800000000000000
+      internalID: -8672853530132772512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00012.png
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 272
+        width: 80
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.5074627}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c75e3d49860a130800000000000000
+      internalID: 3575973092551654540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00013.png
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 272
+        width: 80
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.5074627}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f619fa9100d98f610800000000000000
+      internalID: 1655245486815154543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00014.png
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 136
+        width: 78
+        height: 136
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c7d7d33df9ebfa0800000000000000
+      internalID: -5783009141878588349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00015.png
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 136
+        width: 76
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f93aa729bf7b1a90800000000000000
+      internalID: -7342134334286317070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00016.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 72
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49264705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89b67cec2bcd8930800000000000000
+      internalID: 4147194225684298123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00017.png
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 68
+        height: 136
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce1723c51bb661b0800000000000000
+      internalID: -5663633779228991805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00018.png
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 66
+        height: 136
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.50735295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd436365abd772610800000000000000
+      internalID: 1596382832189912285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_top_00019.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 66
+        height: 134
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.51492536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53193cbe1fd6e72d0800000000000000
+      internalID: -3279062592869134027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
